@@ -1,0 +1,17 @@
+#include "Fizzbuzz.hpp"
+
+string Fizzbuzz::fizzbuzz(int number1)
+
+{
+
+if(number1 % 15 == 0)
+ return "fizzbuzz";
+ else if(number1 % 5 == 0)
+return "buzz";
+ else if(number1 % 3 == 0)
+return "fizz";
+else{
+    return to_string(number1);
+}
+}
+// Fastest build i could manage. Small code for a Competiton
